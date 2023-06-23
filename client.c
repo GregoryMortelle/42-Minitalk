@@ -54,11 +54,5 @@ int	main(int ac, char **av)
 			ft_send(pid, av[2][i++]);
 		ft_send(pid, '\n');
 	}
-	else
-	{
-		ft_printf("Mhhh nope\n");
-		ft_printf("Try : ./client [PID] [message]\n");
-		return (1);
-	}
 	return (0);
 }

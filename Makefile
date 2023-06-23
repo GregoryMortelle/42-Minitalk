@@ -10,6 +10,7 @@
 #                                                                              #
 # **************************************************************************** #
 
+CLIENT	= client
 SERVER	=	server
 LIBFT		=	./libft/libft.a
 LIBFT_DIR	=	./libft
